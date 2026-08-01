@@ -1,8 +1,25 @@
 aid: polyvore
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/polyvore.png
 name: Polyvore
-description: 'Polyvore is a company surfaced as a portfolio company of matrix-partners and added to the
-  API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'Polyvore was a community-powered fashion and lifestyle social-commerce
+  website where members created and shared outfit "sets" by clipping product images
+  into collages. Founded in 2007 and backed by Matrix Partners, it was acquired by
+  Yahoo in 2015 (~$200M), passed to Verizon/Oath, and its assets were acquired by
+  Canadian e-commerce retailer SSENSE in April 2018, which shut the site down immediately.
+  The polyvore.com domain now 301-redirects to ssense.com; there is no live product,
+  developer portal, or public API surface. This profile is retained as a historical
+  portfolio-company record.'
 url: https://raw.githubusercontent.com/api-evangelist/polyvore/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,15 +27,27 @@ x-backed-by:
 - matrix-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-detail: 'Acquired by Yahoo (2015), then SSENSE (2018) which shut down the
+  site; polyvore.com redirects to ssense.com. No live API surface.'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Consumer
+- Fashion
+- E-Commerce
+- Social Commerce
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
