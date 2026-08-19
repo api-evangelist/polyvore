@@ -30,7 +30,7 @@ x-tier-reason: portfolio-lead
 x-status: defunct
 x-status-detail: 'Acquired by Yahoo (2015), then SSENSE (2018) which shut down the
   site; polyvore.com redirects to ssense.com. No live API surface.'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-20'
 tags:
